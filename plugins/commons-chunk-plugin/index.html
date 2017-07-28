@@ -12,7 +12,7 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" />
     
-      <link href="/bc2b966423ba2d78e609.css" rel="stylesheet">
+      <link href="/75c8ac154755ffa33957.css" rel="stylesheet">
     
 
     <script src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
@@ -113,8 +113,11 @@
 <h3 class="header"><a class="anchor" href="#extra-async-commons-chunk" id="extra-async-commons-chunk"></a><span class="text">Extra async commons chunk</span><a class="icon-link" href="#extra-async-commons-chunk"></a></h3>
 <p>Similar to the above one, but instead of moving common modules into the parent (which increases initial load time) a new async-loaded additional commons chunk is used. This is automatically downloaded in parallel when the additional chunk is downloaded.</p>
 <pre><code class="lang-javascript"><span class="token keyword">new</span> <span class="token class-name">webpack<span class="token punctuation">.</span>optimize<span class="token punctuation">.</span>CommonsChunkPlugin</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
-  <span class="token comment" spellcheck="true">// names: [&quot;app&quot;, &quot;subPageA&quot;]</span>
-  <span class="token comment" spellcheck="true">// (choose the chunks, or omit for all chunks)</span>
+  name<span class="token punctuation">:</span> <span class="token string">&quot;app&quot;</span><span class="token punctuation">,</span>
+  <span class="token comment" spellcheck="true">// or</span>
+  names<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token string">&quot;app&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;subPageA&quot;</span><span class="token punctuation">]</span>
+  <span class="token comment" spellcheck="true">// the name or list of names must match the name or names</span>
+  <span class="token comment" spellcheck="true">// of the entry points that create the async chunks</span>
 
   children<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
   <span class="token comment" spellcheck="true">// (use all children of the chunk)</span>
@@ -122,7 +125,7 @@
   <span class="token keyword">async</span><span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
   <span class="token comment" spellcheck="true">// (create an async commons chunk)</span>
 
-  <span class="token comment" spellcheck="true">// minChunks: 3,</span>
+  minChunks<span class="token punctuation">:</span> <span class="token number">3</span><span class="token punctuation">,</span>
   <span class="token comment" spellcheck="true">// (3 children must share the module before it&apos;s separated)</span>
 <span class="token punctuation">}</span><span class="token punctuation">)</span>
 </code></pre>

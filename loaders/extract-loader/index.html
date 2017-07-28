@@ -12,7 +12,7 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" />
     
-      <link href="/bc2b966423ba2d78e609.css" rel="stylesheet">
+      <link href="/75c8ac154755ffa33957.css" rel="stylesheet">
     
 
     <script src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
@@ -42,7 +42,7 @@
 <span class="token keyword">const</span> mainCss <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">&quot;css-loader&quot;</span><span class="token punctuation">,</span> path<span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span>__dirname<span class="token punctuation">,</span> <span class="token string">&quot;app&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;main.css&quot;</span><span class="token punctuation">)</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
 
 <span class="token keyword">if</span> <span class="token punctuation">(</span>live<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    mainCss<span class="token punctuation">.</span><span class="token function">unshift</span><span class="token punctuation">(</span><span class="token string">&quot;file-loader?name=[name].[ext]&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;extract&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    mainCss<span class="token punctuation">.</span><span class="token function">unshift</span><span class="token punctuation">(</span><span class="token string">&quot;file-loader?name=[name].[ext]&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;extract-loader&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
     mainCss<span class="token punctuation">.</span><span class="token function">unshift</span><span class="token punctuation">(</span><span class="token string">&quot;style-loader&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
