@@ -12,7 +12,7 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" />
     
-      <link href="/596a2c34d6ac0b77472d.css" rel="stylesheet">
+      <link href="/82248702a5a3c61fd6ec.css" rel="stylesheet">
     
 
     <script src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
@@ -39,7 +39,7 @@
 <pre><code class="lang-bash">npm <span class="token function">install</span> --save-dev style-loader css-loader
 </code></pre>
 <p><strong>webpack.config.js</strong></p>
-<pre><code class="lang-diff">  var path = require(&apos;path&apos;);
+<pre><code class="lang-diff">  const path = require(&apos;path&apos;);
 
   module.exports = {
     entry: &apos;./src/index.js&apos;,
@@ -119,7 +119,7 @@ bundle.js  560 kB       0  <span class="token punctuation">[</span>emitted<span 
 <pre><code class="lang-bash">npm <span class="token function">install</span> --save-dev file-loader
 </code></pre>
 <p><strong>webpack.config.js</strong></p>
-<pre><code class="lang-diff">  var path = require(&apos;path&apos;);
+<pre><code class="lang-diff">  const path = require(&apos;path&apos;);
 
   module.exports = {
     entry: &apos;./src/index.js&apos;,
@@ -214,7 +214,7 @@ Time: 895ms
 <blockquote class="tip"><div class="tip-content"> A logical next step from here is minifying and optimizing your images. Check out the <a href="https://github.com/tcoopman/image-webpack-loader">image-webpack-loader</a> and <a href="/loaders/url-loader">url-loader</a> for more on how you can enhance your image loading process. </div></blockquote><h2 class="header"><a class="anchor" href="#loading-fonts" id="loading-fonts"></a><span class="text">Loading Fonts</span><a class="icon-link" href="#loading-fonts"></a></h2>
 <p>So what about other assets like fonts? The file and url loaders will take any file you load through them and output it to your build directory. This means we can use them for any kind of file, including fonts. Let&apos;s update our <code>webpack.config.js</code> to handle font files:</p>
 <p><strong>webpack.config.js</strong></p>
-<pre><code class="lang-diff">  var path = require(&apos;path&apos;);
+<pre><code class="lang-diff">  const path = require(&apos;path&apos;);
 
   module.exports = {
     entry: &apos;./src/index.js&apos;,
@@ -307,7 +307,7 @@ Time: 775ms
 <pre><code class="lang-bash">npm <span class="token function">install</span> --save-dev csv-loader xml-loader
 </code></pre>
 <p><strong>webpack.config.js</strong></p>
-<pre><code class="lang-diff">  var path = require(&apos;path&apos;);
+<pre><code class="lang-diff">  const path = require(&apos;path&apos;);
 
   module.exports = {
     entry: &apos;./src/index.js&apos;,
@@ -437,7 +437,7 @@ Time: 775ms
   |- /node_modules
 </code></pre>
 <p><strong>webpack.config.js</strong></p>
-<pre><code class="lang-diff">  var path = require(&apos;path&apos;);
+<pre><code class="lang-diff">  const path = require(&apos;path&apos;);
 
   module.exports = {
     entry: &apos;./src/index.js&apos;,
@@ -514,7 +514,7 @@ Time: 775ms
 <ul>
 <li><a href="https://survivejs.com/webpack/loading/fonts/">Loading Fonts</a> on SurviveJS</li>
 </ul>
-</div><div><hr><h3>Contributors</h3><div class="contributors"><div class="contributors__list"><a class="contributor" href="https://github.com/TheDutchCoder"><img src="https://github.com/TheDutchCoder.png?size=90"><span class="contributor__name"> TheDutchCoder</span></a><a class="contributor" href="https://github.com/michael-ciniawsky"><img src="https://github.com/michael-ciniawsky.png?size=90"><span class="contributor__name"> michael-ciniawsky</span></a><a class="contributor" href="https://github.com/skipjack"><img src="https://github.com/skipjack.png?size=90"><span class="contributor__name"> skipjack</span></a></div></div></div><div class="interactive" id="components/gitter/gitter.jsx" data-props="{}"><span class="gitter"></span></div></section></div><footer class="footer"><div class="container footer__inner"><section class="footer__left"><a href="/guides/getting-started" class="footer__link">Getting Started</a><a href="/organization" class="footer__link">Organization</a><a href="/support" class="footer__link">Support</a><a href="/comparison" class="footer__link">Comparison</a></section><section class="footer__middle"><a href="/" class="footer__icon"><img src="/6bc5d8cf78d442a984e70195db059b69.svg" alt="webpack icon"></a></section><section class="footer__right"><a href="/glossary" class="footer__link">Glossary</a><a href="/branding" class="footer__link">Branding</a><a href="//gitter.im/webpack/webpack" target="_blank" class="footer__link">Gitter</a><a href="https://github.com/webpack/webpack/releases" target="_blank" class="footer__link">Changelog</a><a href="/license" class="footer__link footer__license"><img alt="Creative Commons License" src="/c983c925f14c5a308465ce5f912be111.svg"><img alt="Creative Commons License" src="/c440e4e11ad72daf1899ca0616ddd8b8.svg"></a></section></div></footer><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-46921629-2', 'auto');ga('send', 'pageview');</script></div>
+</div><div><hr><h3>Contributors</h3><div class="contributors"><div class="contributors__list"><a class="contributor" href="https://github.com/TheDutchCoder"><img src="https://github.com/TheDutchCoder.png?size=90"><span class="contributor__name"> TheDutchCoder</span></a><a class="contributor" href="https://github.com/michael-ciniawsky"><img src="https://github.com/michael-ciniawsky.png?size=90"><span class="contributor__name"> michael-ciniawsky</span></a><a class="contributor" href="https://github.com/skipjack"><img src="https://github.com/skipjack.png?size=90"><span class="contributor__name"> skipjack</span></a><a class="contributor" href="https://github.com/sudarsangp"><img src="https://github.com/sudarsangp.png?size=90"><span class="contributor__name"> sudarsangp</span></a></div></div></div><div class="interactive" id="components/gitter/gitter.jsx" data-props="{}"><span class="gitter"></span></div></section></div><footer class="footer"><div class="container footer__inner"><section class="footer__left"><a href="/guides/getting-started" class="footer__link">Getting Started</a><a href="/organization" class="footer__link">Organization</a><a href="/support" class="footer__link">Support</a><a href="/comparison" class="footer__link">Comparison</a></section><section class="footer__middle"><a href="/" class="footer__icon"><img src="/6bc5d8cf78d442a984e70195db059b69.svg" alt="webpack icon"></a></section><section class="footer__right"><a href="/glossary" class="footer__link">Glossary</a><a href="/branding" class="footer__link">Branding</a><a href="//gitter.im/webpack/webpack" target="_blank" class="footer__link">Gitter</a><a href="https://github.com/webpack/webpack/releases" target="_blank" class="footer__link">Changelog</a><a href="/license" class="footer__link footer__license"><img alt="Creative Commons License" src="/c983c925f14c5a308465ce5f912be111.svg"><img alt="Creative Commons License" src="/c440e4e11ad72daf1899ca0616ddd8b8.svg"></a></section></div></footer><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-46921629-2', 'auto');ga('send', 'pageview');</script></div>
 
     
       <script src="/d84b42a06ff0058b2ddc0035f007731e.js"></script>
