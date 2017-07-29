@@ -24,17 +24,17 @@
     </url>    <url>
         <loc>https://webpack.js.org/license/index.html</loc>
     </url>    <url>
-        <loc>https://webpack.js.org/loaders/index.html</loc>
-    </url>    <url>
         <loc>https://webpack.js.org/organization/index.html</loc>
+    </url>    <url>
+        <loc>https://webpack.js.org/loaders/index.html</loc>
     </url>    <url>
         <loc>https://webpack.js.org/plugins/index.html</loc>
     </url>    <url>
         <loc>https://webpack.js.org/pluginsapi/index.html</loc>
     </url>    <url>
-        <loc>https://webpack.js.org/support/index.html</loc>
-    </url>    <url>
         <loc>https://webpack.js.org/vote/index.html</loc>
+    </url>    <url>
+        <loc>https://webpack.js.org/support/index.html</loc>
     </url>    <url>
         <loc>https://webpack.js.org/writers-guide/index.html</loc>
     </url>    <url>
@@ -42,15 +42,17 @@
     </url>    <url>
         <loc>https://webpack.js.org/api/hot-module-replacement/index.html</loc>
     </url>    <url>
-        <loc>https://webpack.js.org/api/loaders/index.html</loc>
-    </url>    <url>
         <loc>https://webpack.js.org/api/module-methods/index.html</loc>
+    </url>    <url>
+        <loc>https://webpack.js.org/api/loaders/index.html</loc>
     </url>    <url>
         <loc>https://webpack.js.org/api/module-variables/index.html</loc>
     </url>    <url>
         <loc>https://webpack.js.org/api/node/index.html</loc>
     </url>    <url>
         <loc>https://webpack.js.org/api/passing-a-config/index.html</loc>
+    </url>    <url>
+        <loc>https://webpack.js.org/api/stats/index.html</loc>
     </url>    <url>
         <loc>https://webpack.js.org/api/plugins/index.html</loc>
     </url>    <url>
@@ -110,9 +112,9 @@
     </url>    <url>
         <loc>https://webpack.js.org/configuration/watch/index.html</loc>
     </url>    <url>
-        <loc>https://webpack.js.org/development/how-to-write-a-plugin/index.html</loc>
-    </url>    <url>
         <loc>https://webpack.js.org/development/how-to-write-a-loader/index.html</loc>
+    </url>    <url>
+        <loc>https://webpack.js.org/development/how-to-write-a-plugin/index.html</loc>
     </url>    <url>
         <loc>https://webpack.js.org/development/plugin-patterns/index.html</loc>
     </url>    <url>
@@ -318,9 +320,9 @@
     </url>    <url>
         <loc>https://webpack.js.org/pluginsapi/compiler/index.html</loc>
     </url>    <url>
-        <loc>https://webpack.js.org/pluginsapi/template/index.html</loc>
-    </url>    <url>
         <loc>https://webpack.js.org/vote/feedback/index.html</loc>
+    </url>    <url>
+        <loc>https://webpack.js.org/pluginsapi/template/index.html</loc>
     </url>    <url>
         <loc>https://webpack.js.org/vote/moneyDistribution/index.html</loc>
     </url>    <url>
